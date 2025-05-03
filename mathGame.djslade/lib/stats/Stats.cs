@@ -2,9 +2,9 @@ namespace mathGame.djslade.lib.stats
 {
     public class Stats
     {
-        private int _streak = 0;
-        private int _longestStreak = 0;
-        private int _totalMatches = 0;
+        private int _streak;
+        private int _longestStreak;
+        private int _totalMatches;
 
         public int Streak { get => _streak; }
         public int LongestStreak { get => _longestStreak; }
