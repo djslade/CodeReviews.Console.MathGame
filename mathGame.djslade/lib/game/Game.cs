@@ -71,7 +71,7 @@ namespace mathGame.djslade.lib.game
                 }
             });
 
-            Task _ = Task.Run(async () =>
+            Task.Run(async () =>
             {
                 for (int i = 15; i > 0; i--)
                 {
